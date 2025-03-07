@@ -21,6 +21,7 @@ public class BasketballNet : MonoBehaviour
             if (_ball == _hoop.GetCurrentBall)
             {
                 UIManager.Instance.AddBasketballScore();
+                _hoop.NullifyBall();
             }
     }
 }

@@ -13,4 +13,5 @@ public class BasketballHoop : MonoBehaviour
         other.TryGetComponent<Basketball>(out _currentBall);
     }
 
+    public void NullifyBall() => _currentBall = null;
 }
