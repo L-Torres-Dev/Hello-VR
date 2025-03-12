@@ -1,12 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.XR.Interaction.Toolkit;
+
 
 public class FoodEater : MonoBehaviour
 {
 
-    [SerializeField] private XRSocketInteractor socketInteractor;
+    [SerializeField] private UnityEngine.XR.Interaction.Toolkit.Interactors.XRSocketInteractor socketInteractor;
 
     public void EatFood()
     {
